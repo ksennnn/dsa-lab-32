@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Микросервисы</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #635e9a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #383557;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: end;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            gap: 5px;
+        }
+
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            min-width: 180px;
+        }
+
+        button {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            background: #2f2b55;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th {
+            background: #635e9a;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background: #fafafa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #8882d2;
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            form {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            input {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Сервис управления валютами
+    </header>
+
+    <main>
+
+        <div class="section">
+            <h2>Добавление новой валюты</h2>
+            <form action="/load" method="post">
+                <label>Код валюты <input type="text" name="currency_name" required></label>
+                <label>Курс к рублю <input type="number" step="any" name="rate" required></label>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Изменение курса</h2>
+            <form action="/update_currency" method="post">
+                <label>Код валюты <input type="text" name="currency_name" required></label>
+                <label> Новый курс <input type="number" step="any" name="rate" required></label>
+                <button type="submit">Обновить</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Удаление валюты</h2>
+            <form action="/delete" method="post">
+                <label>Код валюты <input type="text" name="currency_name" required></label>
+                
+                <button type="submit">Удалить</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Конвертация суммы</h2>
+            <form action="/convert" method="post">
+                <label>Валюта<input type="text" name="currency" required></label>
+
+                <label>Сумма<input type="number" step="any" name="amount" required></label>
+
+                <button type="submit">Конвертировать</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Текущие валюты</h2>
+
+            <table>
+                <tr>
+                    <th>Валюта</th>
+                    <th>Курс</th>
+                </tr>
+
+                {% for c in currencies %}
+                <tr>
+                    <td>{{ c.currency_name }}</td>
+                    <td>{{ c.rate }}</td>
+                </tr>
+                {% endfor %}
+
+                {% if not currencies %}
+                <tr>
+                    <td colspan="2">Список валют пуст</td>
+                </tr>
+                {% endif %}
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        Микросервисное приложение Flask + PostgreSQL
+    </footer>
+
+</body>
+</html>

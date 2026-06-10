@@ -1,0 +1,535 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36">
+  <diagram name="Страница-1" id="TU4r3Zpgurx_wq1Bls4b">
+    <mxGraphModel dx="1413" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="22mdu5j44PS2wHOLVfCK-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="" vertex="1">
+          <mxGeometry height="2300" width="1250" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="22mdu5j44PS2wHOLVfCK-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1165" y="2300" as="sourcePoint" />
+            <mxPoint x="1164.76" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-82" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="2310" as="sourcePoint" />
+            <mxPoint x="105" y="1595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-56" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=30;height=20;strokeColor=light-dark(#ab8fb7, #ededed);" value="alt" vertex="1">
+          <mxGeometry height="290" width="1190" x="60" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-57" parent="22mdu5j44PS2wHOLVfCK-56" style="text;html=1;" value="[Валюта не найдена]" vertex="1">
+          <mxGeometry height="20" relative="1" width="140" as="geometry">
+            <mxPoint x="900" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-58" parent="22mdu5j44PS2wHOLVfCK-56" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;strokeColor=#7C5473;" value="" vertex="1">
+          <mxGeometry height="10" width="1190" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-59" parent="22mdu5j44PS2wHOLVfCK-56" style="text;html=1;" value="[Валюта существует]" vertex="1">
+          <mxGeometry height="20" width="140" x="910" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-65" edge="1" parent="22mdu5j44PS2wHOLVfCK-56" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="запись не найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="50" as="sourcePoint" />
+            <mxPoint x="595" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-66" edge="1" parent="22mdu5j44PS2wHOLVfCK-56" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="запись найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="140" as="sourcePoint" />
+            <mxPoint x="595" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-61" parent="22mdu5j44PS2wHOLVfCK-56" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="1100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-70" edge="1" parent="22mdu5j44PS2wHOLVfCK-56" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="220" as="sourcePoint" />
+            <mxPoint x="595" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-71" edge="1" parent="22mdu5j44PS2wHOLVfCK-56" source="n8k6ySmcHhihZvtfEEqQ-87" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="200 OK The exchange rate updated">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="235" as="sourcePoint" />
+            <mxPoint x="350" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-72" edge="1" parent="22mdu5j44PS2wHOLVfCK-56" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="курс обновлён">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="250" as="sourcePoint" />
+            <mxPoint x="50" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-20" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="1490" as="sourcePoint" />
+            <mxPoint x="105" y="1165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="n8k6ySmcHhihZvtfEEqQ-20" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;GET / (главная страница)&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n8k6ySmcHhihZvtfEEqQ-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="405" y="2300" as="sourcePoint" />
+            <mxPoint x="405" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-19" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="2070" width="10" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="22mdu5j44PS2wHOLVfCK-17" value="рендеринг index.html&lt;div&gt;с переданным списком&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="400" />
+            </Array>
+            <mxPoint x="405" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-39" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n8k6ySmcHhihZvtfEEqQ-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="2300" as="sourcePoint" />
+            <mxPoint x="650" y="160.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-1" parent="1" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelPosition=center;align=center;" value="Пользователь" vertex="1">
+          <mxGeometry height="90" width="50" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-7" parent="1" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Gateway&lt;div&gt;(порт 5000)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-8" parent="1" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Currency Manager&lt;div&gt;(порт 5001)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="580" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Data Manager&amp;nbsp;&lt;div&gt;(порт 5002)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="780" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-15" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-19" style="endArrow=none;dashed=1;html=1;rounded=0;" target="n8k6ySmcHhihZvtfEEqQ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="1080" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-20" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="400" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-30" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-8" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="HTML-страница со списком валют">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="430" as="sourcePoint" />
+            <mxPoint x="110" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-46" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="400" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="n8k6ySmcHhihZvtfEEqQ-46" value="POST /load&amp;nbsp;&lt;div&gt;(currency_name, rate)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="110" y="520" as="sourcePoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;POST /load&amp;nbsp;&lt;/div&gt;&lt;div&gt;(currency_name, rate)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="550" as="sourcePoint" />
+            <mxPoint x="645" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-51" edge="1" parent="1" source="n8k6ySmcHhihZvtfEEqQ-52" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="409 Conflict">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="675" as="sourcePoint" />
+            <mxPoint x="410" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-52" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="645" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-6" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;SELECT id FROM currencies WHERE currency_name = ?&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="655" y="570" as="sourcePoint" />
+            <mxPoint x="1150" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="запись найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1156.5" y="630" as="sourcePoint" />
+            <mxPoint x="653.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-81" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="400" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-84" edge="1" parent="1" source="n8k6ySmcHhihZvtfEEqQ-81" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="ошибка &quot;Currency not found&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1070" as="sourcePoint" />
+            <mxPoint x="110" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-85" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="n8k6ySmcHhihZvtfEEqQ-87" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;POST /update_currency&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;line-height: 60%;&quot;&gt;(currency_name, new_rate)&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="1035" as="sourcePoint" />
+            <mxPoint x="654" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-86" edge="1" parent="1" source="n8k6ySmcHhihZvtfEEqQ-87" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="404 Not Found">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="1125" as="sourcePoint" />
+            <mxPoint x="410" y="1125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-87" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="10" x="645" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-2" parent="1" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="PostgreSQL (currencies_db)" vertex="1">
+          <mxGeometry height="50" width="130" x="1100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-18" parent="1" style="html=1;whiteSpace=wrap;" value="Загрузка главной страницы и получение списка валют" vertex="1">
+          <mxGeometry height="30" width="1190" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-8" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="400" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="1160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-14" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;SELECT currency_name, rate FROM currencies&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="910" y="290" as="sourcePoint" />
+            <mxPoint x="1160" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-11" value="все записи">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="330" as="sourcePoint" />
+            <mxPoint x="910" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-11" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;GET /currencies&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="267" as="sourcePoint" />
+            <mxPoint x="990" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-16" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" value="200 OK&lt;div&gt;{currencies: [...]}&amp;nbsp;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="350" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-17" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="404" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-45" parent="1" style="html=1;whiteSpace=wrap;" value="Добавление новой валюты (POST /load)" vertex="1">
+          <mxGeometry height="30" width="1190" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-21" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-35" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="22mdu5j44PS2wHOLVfCK-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1165" y="1090" as="sourcePoint" />
+            <mxPoint x="1165" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-6" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="208" width="10" x="1160" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="400" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="ошибка &quot;The currency already exists&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="110" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-27" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=30;height=20;strokeColor=light-dark(#9e7eac, #EDEDED);" value="alt" vertex="1">
+          <mxGeometry height="340" width="1190" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-28" parent="22mdu5j44PS2wHOLVfCK-27" style="text;html=1;" value="[Валюта уже существует]" vertex="1">
+          <mxGeometry height="20" relative="1" width="140" as="geometry">
+            <mxPoint x="900" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-29" parent="22mdu5j44PS2wHOLVfCK-27" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;strokeColor=#7C5473;" value="" vertex="1">
+          <mxGeometry height="10" width="1190" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-30" parent="22mdu5j44PS2wHOLVfCK-27" style="text;html=1;" value="[Валюта не существует]" vertex="1">
+          <mxGeometry height="20" width="140" x="910" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-34" edge="1" parent="22mdu5j44PS2wHOLVfCK-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-32" value="запись не найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="170" as="sourcePoint" />
+            <mxPoint x="590" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-35" parent="22mdu5j44PS2wHOLVfCK-27" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="1100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-38" edge="1" parent="22mdu5j44PS2wHOLVfCK-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="265" as="sourcePoint" />
+            <mxPoint x="595" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-41" edge="1" parent="22mdu5j44PS2wHOLVfCK-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-23" value="200 OK Currency added successfully&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="280" as="sourcePoint" />
+            <mxPoint x="354" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-42" edge="1" parent="22mdu5j44PS2wHOLVfCK-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="успешное добавление">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="50" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-32" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="645" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-37" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-32" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-35" value="&lt;span style=&quot;line-height: 60%;&quot;&gt;INSERT INTO currencies (currency_name, rate)&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="800" as="sourcePoint" />
+            <mxPoint x="1155" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-60" parent="1" style="html=1;whiteSpace=wrap;" value="Обновление курса валюты (POST /update_currency)" vertex="1">
+          <mxGeometry height="30" width="1190" x="60" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;POST /update_currency&lt;/div&gt;&lt;div&gt;(currency_name, new_rate))&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="110" y="1019.9999999999998" as="sourcePoint" />
+            <mxPoint x="400" y="1019.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-7" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="1160" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;SELECT id FROM currencies WHERE currency_name = ?&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="655" y="1050" as="sourcePoint" />
+            <mxPoint x="1160" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-69" edge="1" parent="1" source="n8k6ySmcHhihZvtfEEqQ-87" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-61" value="&lt;div&gt;UPDATE currencies SET rate = ? WHERE currency_name = ?&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0099" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="655" y="1260" as="sourcePoint" />
+            <mxPoint x="1160" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-73" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=30;height=20;strokeColor=light-dark(#b69ec1, #ededed);" value="alt" vertex="1">
+          <mxGeometry height="280" width="1190" x="60" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-74" parent="22mdu5j44PS2wHOLVfCK-73" style="text;html=1;" value="[Валюта не найдена]" vertex="1">
+          <mxGeometry height="20" relative="1" width="140" as="geometry">
+            <mxPoint x="900" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-75" parent="22mdu5j44PS2wHOLVfCK-73" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;strokeColor=#7C5473;" value="" vertex="1">
+          <mxGeometry height="10" width="1190" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-76" parent="22mdu5j44PS2wHOLVfCK-73" style="text;html=1;" value="[Валюта существует]" vertex="1">
+          <mxGeometry height="20" width="140" x="910" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-77" edge="1" parent="22mdu5j44PS2wHOLVfCK-73" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="запись не найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="50" as="sourcePoint" />
+            <mxPoint x="595" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-78" edge="1" parent="22mdu5j44PS2wHOLVfCK-73" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="запись найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="140" as="sourcePoint" />
+            <mxPoint x="595" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-79" parent="22mdu5j44PS2wHOLVfCK-73" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="1100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-80" edge="1" parent="22mdu5j44PS2wHOLVfCK-73" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="220" as="sourcePoint" />
+            <mxPoint x="595" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-81" edge="1" parent="22mdu5j44PS2wHOLVfCK-73" source="22mdu5j44PS2wHOLVfCK-87" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="200 OK Currency removed">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="235" as="sourcePoint" />
+            <mxPoint x="350" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-83" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="400" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-84" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-83" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="ошибка &quot;Currency not found&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1500" as="sourcePoint" />
+            <mxPoint x="110" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-85" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-87" value="&lt;div&gt;POST /delete&lt;/div&gt;&lt;div&gt;(currency_name)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="1465" as="sourcePoint" />
+            <mxPoint x="654" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-86" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-87" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="404 Not Found">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="1555" as="sourcePoint" />
+            <mxPoint x="410" y="1555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-87" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="10" x="645" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-88" parent="1" style="html=1;whiteSpace=wrap;" value="Удаление валюты (POST /delete)" vertex="1">
+          <mxGeometry height="30" width="1190" x="60" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-89" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-83" value="POST /delete&lt;div&gt;(currency_name)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="110" y="1450" as="sourcePoint" />
+            <mxPoint x="390" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-90" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="1160" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-91" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;SELECT id FROM currencies WHERE currency_name = ?&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="655" y="1480" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-93" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-87" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-79" value="&lt;div&gt;DELETE FROM currencies WHERE currency_name = ?&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="655" y="1690" as="sourcePoint" />
+            <mxPoint x="1160" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-94" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-83" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;entryX=1;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" value="валюта удалена">
+          <mxGeometry relative="1" x="0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="1750" as="sourcePoint" />
+            <mxPoint x="110" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-95" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=30;height=20;strokeColor=light-dark(#c0abc9, #ededed);" value="alt" vertex="1">
+          <mxGeometry height="280" width="1190" x="60" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-96" parent="22mdu5j44PS2wHOLVfCK-95" style="text;html=1;" value="[Валюта не найдена]" vertex="1">
+          <mxGeometry height="20" relative="1" width="140" as="geometry">
+            <mxPoint x="900" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-97" parent="22mdu5j44PS2wHOLVfCK-95" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;strokeColor=#7C5473;" value="" vertex="1">
+          <mxGeometry height="10" width="1190" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-98" parent="22mdu5j44PS2wHOLVfCK-95" style="text;html=1;" value="[Валюта существует]" vertex="1">
+          <mxGeometry height="20" width="140" x="910" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-99" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-108" value="запись не найдена">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="50" as="sourcePoint" />
+            <mxPoint x="595" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-100" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="rate = значение курса">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="154.47" as="sourcePoint" />
+            <mxPoint x="790" y="154.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-103" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" source="22mdu5j44PS2wHOLVfCK-108" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="200 OK&lt;div&gt;{currency, amount, rate, converted_amount}&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="235" as="sourcePoint" />
+            <mxPoint x="350" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8k6ySmcHhihZvtfEEqQ-40" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" source="22mdu5j44PS2wHOLVfCK-108" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="785" y="380" as="sourcePoint" />
+            <mxPoint x="785" y="-1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-11" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="780" y="-1670" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-108" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="10" x="780" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-115" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="22mdu5j44PS2wHOLVfCK-108" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="785" y="380" as="sourcePoint" />
+            <mxPoint x="785" y="-1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-107" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="404 Not Found">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="70" as="sourcePoint" />
+            <mxPoint x="350" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-105" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;" value="ошибка &quot;Currency not found&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="90" />
+            </Array>
+            <mxPoint x="340" y="90" as="sourcePoint" />
+            <mxPoint x="50" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-116" edge="1" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="22mdu5j44PS2wHOLVfCK-117" value="converted = amount * rate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="210.03999999999996" />
+            </Array>
+            <mxPoint x="791" y="180.03999999999996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-117" parent="22mdu5j44PS2wHOLVfCK-95" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="785" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-104" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="400" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-106" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-108" value="GET /convert?currency=&amp;amp;amount=">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="1885" as="sourcePoint" />
+            <mxPoint x="654" y="1885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-109" parent="1" style="html=1;whiteSpace=wrap;" value="Конвертация суммы" vertex="1">
+          <mxGeometry height="30" width="1190" x="60" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-110" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" target="22mdu5j44PS2wHOLVfCK-104" value="POST /convert&lt;div&gt;(currency, amount)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="110" y="1870" as="sourcePoint" />
+            <mxPoint x="390" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-111" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="1160" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-112" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-108" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;labelBackgroundColor=none;" value="&lt;div&gt;SELECT rate FROM currencies WHERE currency_name = ?&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="655" y="1900" as="sourcePoint" />
+            <mxPoint x="1160" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22mdu5j44PS2wHOLVfCK-114" edge="1" parent="1" source="22mdu5j44PS2wHOLVfCK-104" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;labelBackgroundColor=none;entryX=1;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" value="результат конвертации">
+          <mxGeometry relative="1" x="0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="2170" as="sourcePoint" />
+            <mxPoint x="110" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

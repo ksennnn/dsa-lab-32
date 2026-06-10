@@ -4,7 +4,7 @@ class IncorrectTriangleSides(Exception):
 
 
 class Triangle:
-    # Класс, описывающий треугольник.
+    # Класс, описывающий треугольник
     
     def __init__(self, side1, side2, side3):
         # Конструктор класса Triangle
